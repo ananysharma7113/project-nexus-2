@@ -1,0 +1,282 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    overflow:visible;
+}
+.total{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    height: 100%;
+}
+.intro-body {
+    margin: 0px;
+    padding: 0px;
+    height: 100%;
+    width: 100%;
+}
+
+.background-view{
+    background-image: url('../images/food.jpg');
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    background-position: center;
+    
+}
+.dancing-script {
+    font-family: "Dancing Script", cursive;
+    font-optical-sizing: auto;
+    font-weight: 900;
+    text-decoration: none;
+}
+.nav{
+    padding: 10px;
+    opacity: 0.9;
+}
+.navbar-brand {
+    font-weight: 900;
+    font-size: large;
+}
+.nav-item{
+    margin: 10px;
+    color: burlywood;
+}
+.nav-item:hover{
+    color: burlywood;
+}
+.intro-content{
+    background-color: whitesmoke;
+    opacity: 0.8;
+    width: fit-content;
+    margin: auto;
+    text-align: center;
+    width: 30%;
+    position:absolute;
+    left: 35%;
+    top: 30%;
+    padding: 10px;
+    border-radius: 10px;
+}
+.intro-title{
+    font-weight: 900;
+    font-size: 100px;
+}
+.order-btn {
+    border: none;
+    background-color: burlywood;
+    margin-top: 20px;
+    padding: 10px;
+    border-radius: 10px;
+    font-weight: 900;
+    text-decoration: none;
+    color: black;
+    width: fit-content;
+    margin-bottom: 10px;
+}
+.order-btn:hover{
+    background-color: rgb(145, 113, 72);
+}
+.middle-content{
+    display: flex;
+    flex-direction: row;
+    margin:20px;
+    position: relative;
+    top: 90vh;
+}
+.cards-1 {
+    margin:20px;
+    text-align: center;
+    border: solid 1px rgb(196, 192, 192);
+    border-radius: 20px;
+    background-color: black;
+    color: burlywood;
+    box-shadow: 10px,10px,10px grey;
+}
+
+.card-title{
+    font-weight: 800;
+}
+.menu-title{
+    font-weight: 800;
+    font-size: 50px;
+}
+.menu{
+    position: relative;
+    top:90vh;
+    margin: 10px;
+    text-align: center;
+}
+.menu-row{
+    display: flex;
+    flex-direction: row;
+    margin: 10px;
+}
+.menu-content{
+    padding: 10px;
+}
+
+.info{
+    position: relative;
+    top: 90vh;
+    display: flex;
+    flex-direction: row;
+    background-color: rgb(26, 26, 45);
+    width: 100%;
+    padding: 25px;
+}
+.info-img{
+    height: 30vw;
+}
+.info-content{
+    text-align: center;
+    margin: 20px;
+    margin-top: 50px;
+}
+.info-title{
+    color: white;
+    margin: 20px;
+    font-size: 5vw;
+    font-weight: 800;
+}
+.info-text{
+    color: white;
+}
+.booking{
+    position: relative;
+    top: 95vh;
+    margin: 20px;
+    text-align: center;
+}
+.booking-form{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+.booking-title{
+    font-size: 50px;
+    font-weight: 800;
+}
+.input{
+    border: none;
+    background-color:whitesmoke;
+    width: 40vw;
+    margin: 20px;
+    padding: 20px;
+    color: black;
+}
+.form-content{
+    display: flex;
+    flex-direction: row;
+}
+.form-img{
+    height: 30vw;
+}
+.button{
+    position: relative;
+    left: 15vw;
+}
+.review{
+    position: relative;
+    top: 100vh;
+    text-align: center;
+}
+.carousel-content{
+    background-color: rgb(26, 26, 45);
+    width: 50vw;
+    padding: 30px;
+    margin: auto;
+    color: white;
+    border-radius: 20px;
+    margin: 20px;
+}
+.review-content{
+    display: flex;
+    flex-direction: row;
+}
+.rev-img-1{
+    height: 20vh;
+    margin-top: 6vh;
+}
+.rev-img-2{
+    height: 20vh;
+    margin-top: 8vh;
+}
+.footer{
+    background-color: whitesmoke;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    top: 110vh;
+    color: black;
+    padding: 20px;
+    padding-top: 40px;
+    text-align: center;
+    width: 100%;
+}
+.footer-content{
+    margin: auto;
+    width: 30vw;
+}
+.call-img{
+    height: 20px;
+    
+}
+.loc-img {
+    height: 20px;
+}
+.mail-img{
+    height: 20px;
+}
+
+.location{
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    justify-content: center;
+}
+.link{
+    text-decoration: none;
+    color: black;
+}
+.footer-row{
+    display: flex;
+    flex-direction: row;
+}
+.copyright{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 20px;
+}
+.copyright-img{
+    height: 20px;
+}
+@media(max-width:1180px) {
+    .intro-content{
+        width: 50%;
+    }
+    .menu-title{
+        font-size: 3vw;
+    }
+}
+
+@media(max-width:720px) {
+    .intro-content {
+            width: 100%;
+            position: absolute;    
+            left:0%;
+        }
+    .background-view{
+        background-image: url();
+    }
+}
+
+
+
